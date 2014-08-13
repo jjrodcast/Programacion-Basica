@@ -1,8 +1,12 @@
+/* TAREA 2.- Generar una matriz con bombas de manera aleatoria
+   Para este caso consideramos 1 como bomba y 0 como campo, además 
+   el algoritmo siempre coloca 8 bombas sin que se repita la posicion
+*/
 var tablero = [[ 0, 0, 0, 0],
 			   [ 0, 0, 0, 0],
 			   [ 0, 0, 0, 0],
 			   [ 0, 0, 0, 0]
-			  ];
+			  ]; 
 
 function generateNumber (min, max) 
 {
